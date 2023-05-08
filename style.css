@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: skyblue;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto auto;
+    padding: 180px;
+
+}
+h2{
+    color: blue;
+    font: 5rem sans-serif;
+}
+h2 span{
+    color: blueviolet;
+}
+p{
+    color: red;
+    font: 2rem sans-serif;
+}
+.p1{
+    color: yellow;
+}
+button{
+    padding: 30px;
+    background-color: chocolate;
+    border: 2px solid red;
+    border-radius: 25px;
+    font: 5rem sans-serif;
+}
+button:hover{
+    background-color: darkred;
+    color: white;
+    cursor: pointer;
+}
